@@ -10,6 +10,6 @@ def batch_badge_creator(array)
     message=badge_maker(name)
     array2.push(message)
   end
-return array2
+
 
 end
