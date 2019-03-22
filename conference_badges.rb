@@ -9,6 +9,6 @@ def batch_badge_creator(array)
   array.each do|name|
     array2<<badge_maker(name)
   end
-
+return array2
 
 end
