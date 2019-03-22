@@ -7,7 +7,8 @@ require 'pry'
 def batch_badge_creator(array)
   array2=[]
   array.each do|name|
-    array2<<badge_maker(name)
+    message=badge_maker(name)
+    array2.push(message)
   end
   binding.pry
 return array2
