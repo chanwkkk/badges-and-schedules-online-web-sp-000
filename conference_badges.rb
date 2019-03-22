@@ -5,10 +5,6 @@ end
 
 
 def batch_badge_creator(array)
-  array.collect do|name|
-  badge_maker(name)
+  array.collect {|name| badge_maker(name)}
     #array2.push(message)
-  end
-
-
 end
